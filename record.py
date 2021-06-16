@@ -26,13 +26,13 @@ print('-------------------------------------------------------------------------
 print(new[1])
 
 
+#good = [d for d in data if 'good' in d]
 good = []
 for d in data:
     if 'good' in d:
         good.append(d)
 print('There are ',len(good), 'records mentioned good')
 print(good[0])
-
 
 
 
